@@ -12,13 +12,12 @@ If you are a Go user you can run `go install github.com/shindakun/vec3`.
 
 ## Functions
 
-func Distance(a, b Vector3) float32
-func DistanceSquared(a, b Vector3) float32
-type Vector3
-    func Add(a, b Vector3) Vector3
-    func Mult(a Vector3, b float32) Vector3
-    func Normalize(a Vector3) Vector3
-    func (a Vector3) Length() float32
+func Distance(a, b Vector3) float32  
+func DistanceSquared(a, b Vector3) float32  
+func Add(a, b Vector3) Vector3  
+func Mult(a Vector3, b float32) Vector3  
+func Normalize(a Vector3) Vector3  
+func (a Vector3) Length() float32  
 
 ## Usage example
 
